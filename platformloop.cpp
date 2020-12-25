@@ -1,8 +1,10 @@
 #include <iostream>
 
+
+
 using namespace std;
 
-
+//
 class PlatformSpace{
     private:
         int intBuffer;
@@ -14,12 +16,6 @@ class PlatformSpace{
             return intBuffer;
         }
 };
-
-
-
-
-
-
 
 
 int main(){
@@ -38,8 +34,8 @@ int main(){
         if(platformSpace.getintBuffer() < 0){
             platformRunning = false;
         }
-        
     }
+    
     while(platformRunning == true);
 
     return 0;
